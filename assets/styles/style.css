@@ -121,21 +121,18 @@ p{
     position:relative;
     width:48.5%;
     height:350px;
+    float:left;
+    margin-bottom: 3%;
+    background-size: cover;
 }
 
 .ads-item1{
     background-image:url("../images/ads-img1.jpg");
-    background-size: cover;
     margin-right: 3%;
-    margin-bottom: 3%;
-    float:left;
 }
 
 .ads-item2{
     background-image:url("../images/ads-img2.jpg");
-    background-size: cover;
-    margin-bottom: 3%;
-    float:left;
 }
 
 
@@ -149,7 +146,9 @@ p{
 .ads-text h3{
     color:white;
     text-transform:uppercase;
-    font-size: 2em; /* I'm not sure. */
+    font-size: 2em;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
 }
 
 
@@ -160,5 +159,153 @@ p{
     margin-top:1em;
     font-family:"Raleway", sans-serif;
     text-transform:uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+/* 4. Merchandise area */
+.merch{
+    width:85%;
+    margin:4em auto;
+}
+
+.section-header{
+    text-align:center;
+}
+
+.section-header span{
+    font-family:"Raleway", sans-serif;
+    font-weight: 500;
+    font-style:italic;
+    color:#c7a17a;
+}
+
+.section-header h2{
+    text-transform:uppercase;
+    color:#312a26;
+}
+
+.section-header hr{
+    background-color: #c7a17a;
+    height:2px;
+    width:25%;
+    margin:auto;
+}
+
+.merch-gallery{
+    margin-top:2em;
+    overflow:auto;
+}
+
+.merch-items{
+    width:24.25%;
+    float:left;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+.merch-items:nth-child(4),
+.merch-items:nth-child(8){
+    margin-right: 0;
+}
+
+
+.merch-items img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+
+/* 5.Discount */
+.discount{
+    width:80%;
+    margin:4em auto;
+    background-image:url("../images/discount-img.jpg");  
+    background-size:cover;
+    background-position: center;
+    height:350px;
+    position:relative;
+}
+
+.discount-text{
+    text-align:center;
+    width:50%;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%)
+}
+
+.discount-text span{
+    font-family:"Raleway", sans-serif;
+    color:#fff;
+    font-style:italic;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text h2{
+    font-size:2em;
+    color:#fff;
+    text-transform:uppercase;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.discount-text a{
+    text-decoration: none;
+    display:inline-block;
+    padding:1em;
+    background-color: rgba(255,255,255,.5);
+    color:#312a26;
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    margin-top:1em;
+}
+
+
+/* 7.ads area */
+
+.ads-item3{
+    margin-right:3%;
+    background-image: url("../images/ads-img3.jpg");
+}
+
+.ads-item4{
+    background-image: url("../images/ads-img4.jpg");
+}
+
+.ads-item5{
+    margin-right:3%;
+    background-image: url("../images/ads-img5.jpg");
+}
+
+.ads-item6{
+    background-image: url("../images/ads-img6.jpg");
+}
+
+
+/* 8.form */
+
+.reservation{
+    width:85%;
+    margin:4em auto;
+}
+
+.form-group{
+    width:49.50%;  /*to be updated*/
+    float:left;
+    background-color:#f2f2f2;
+    margin-right:1%;
+    margin-top:2em;
+    height:650px;
+    border-radius:5px;
+    padding:2em;
+}
+
+.form-group:nth-child(2){
+    margin-right:0;
+    
+}
+
+form{
+    overflow:auto;
 }
 
