@@ -52,7 +52,7 @@ p{
 }
 
 .nav ul li{
-    display:inline-block;
+    display:inline;
     margin-left:1em;
 }
 
@@ -309,135 +309,20 @@ form{
     overflow:auto;
 }
 
-form input,
-form label,
-form select,
-form textarea{
-    display:inline-block;
+/* practice */
+.practice-mother{
     width:100%;
-    font-family:"Raleway", sans-serif;
-    padding:1em;
-    margin-bottom:1em;
+    height:500px;
+    background-color: aqua;
 }
+.practice{
+    width:300px;
+    height:80px;
 
-form label{
-    font-weight:700;
-    padding:0px;
-    margin-bottom: .5em;
-}
-
-
-.res-time{
-    text-align: center;
-}
-
-.res-time *{
-    width:auto;
-}
-
-form p{
-    margin:1em;
-    text-align:center;
-    font-weight:700;
-}
-
-form h3{
-    text-align:center;
-    text-transform: uppercase;
-}
-
-form h3::after{
-    content:"";
     background-image: url("../images/reservation-cards.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    display:block;
-    width:150px;
-    height:30px;
-    margin:auto;
-}
-
-.res-agreement *{
-    width:auto;
-}
-
-form input[type="submit"]{
-    background-color: #c7a17a;
-    font-weight:700;
-    text-transform: uppercase;
-}
-
-
-/* footer area */
-.footer{
-    background-image:url("../images/footer-img.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
-
-.footer-contents{
-    width:85%;
-    margin:auto;
-    overflow:auto;
-}
-
-.footer-widgets{
-    width:24.25%;
-    float:left;
-    margin-right:1%;
-}
-
-.footer-widgets:nth-child(4){
-    margin-right:0;
-}
-
-.footer-widgets h3{
-    color:#fff;
-    text-transform: uppercase;
-    text-shadow: 3px 3px 6px #321a26;
+    overflow: auto;
 }
 
 
-.footer-widgets h4{
-    color:#fff;
-}
-
-.footer-widgets p{
-    color:#c7a17a;
-}
-
-
-.footer td,th{
-    color:#fff;
-    font-family:"Raleway", sans-serif;
-    text-shadow: 3px 3px 6px #321a26;
-}
-
-.footer-form *{
-    width:auto;
-}
-
-
-.footer-social{
-    color:#fff;
-    background-color: #19100F;
-    overflow:auto;
-    padding:1em 7.5%;
-}
-
-
-.social-widget{
-    width:32.66%;
-    float:left;
-    text-align:center;
-}
-
-.social-widget h3{
-    text-transform: uppercase;
-}
-
-.social-widget img{
-    width:1.5em;
-}
